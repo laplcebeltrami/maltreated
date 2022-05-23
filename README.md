@@ -1,4 +1,11 @@
-Matlab binary file jacobian.mat contains various network data used in [1, 2]. It contains the following variables.
+Matlab binary file jacobian.mat contains various network data used in 
+
+Chung, M.K., Hanson, J.L., Ye, J., Davidson, R.J. Pollak, S.D. 2015 Persistent homology in sparse regression and its application to brain morphometry. IEEE Transactions on Medical Imaging, 34:1928-1939 http://pages.stat.wisc.edu/~mchung/papers/chung.2015.TMI.pdf
+
+Chung, M.K., Hanson, J.L., Lee, H., Adluru, N., Alexander1, A.L., Davidson, A.L., Pollak, S.D. 2013. Persistent homological sparse network approach to detecting white matter abnormality in maltreated children: MRI and DTI multimodal study, 16th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI).  Lecture Notes in Computer Science (LNCS) 8149:300-307 
+https://pages.stat.wisc.edu/~mchung/papers/chung.2013.MICCAI.pdf
+
+It contains the following variables.
 
 jacobian: 54 (# of subject) x 18881 (# of vertices) matrix of Jacobian determinants obtained from MRI
 FA         : 54 (# of subject) x 18881 (# of vertices) matrix of fractional anisotropy (FA) obtained from DTI. 
