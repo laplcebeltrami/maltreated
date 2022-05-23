@@ -22,7 +22,7 @@ group    : Categorical variable indicating if a subject is normal (0) or post in
                
 gender   : Categorical variable indicating if a subject is female (0) or male 1 
 
-Variable jacobian is the Jacobian determinant of deforming a white matter template to 54 individual surfaces. It is sampled at 18881 mesh vertices. Variable FA is fractional anisotropy obtained from DTI. The detailed information about the data is given in
+Variable jacobian is the Jacobian determinant of deforming a white matter template to 54 individual surfaces. It is sampled at 18881 mesh vertices. Variable FA is fractional anisotropy obtained from DTI. Simply run script jacobian.m. The detailed information about the data is given in
 http://brainimaging.waisman.wisc.edu/%7Echung/barcodes/
 If you are using data or codes, please reference [1] or [2] above.
 
