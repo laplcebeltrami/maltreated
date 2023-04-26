@@ -1,4 +1,4 @@
-Matlab binary file jacobian.mat contains various network data used in 
+Matlab binary file jacobian.mat contains various structural covariate network data used in 
 
 Chung, M.K., Hanson, J.L., Ye, J., Davidson, R.J. Pollak, S.D. 2015 Persistent homology in sparse regression and its application to brain morphometry. IEEE Transactions on Medical Imaging, 34:1928-1939 http://pages.stat.wisc.edu/~mchung/papers/chung.2015.TMI.pdf
 
@@ -26,5 +26,6 @@ Variable jacobian is the Jacobian determinant of deforming a white matter templa
 http://brainimaging.waisman.wisc.edu/%7Echung/barcodes/
 If you are using data or codes, please reference [1] or [2] above.
 
-(C) 2013- Moo K. Chung, University of Wisconsin-Madison
+(C) 2013- Moo K. Chung, Jamie Hanson, Andrew Alexander, Richard Davidson, Seth Pollack, 
+University of Wisconsin-Madison
 
