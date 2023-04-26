@@ -26,6 +26,5 @@ Variable jacobian is the Jacobian determinant of deforming a white matter templa
 http://brainimaging.waisman.wisc.edu/%7Echung/barcodes/
 If you are using data or codes, please reference [1] or [2] above.
 
-(C) 2013- Moo K. Chung, Jamie Hanson, Andrew Alexander, Richard Davidson, Seth Pollack, 
-University of Wisconsin-Madison
+(C) 2013- Moo K. Chung, Jamie Hanson, Andrew Alexander, Richard Davidson, Seth Pollack, University of Wisconsin-Madison
 
