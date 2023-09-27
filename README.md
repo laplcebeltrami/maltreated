@@ -1,4 +1,4 @@
-#Structural Covariance and Connectivity in Maltreated Children 
+# Structural Covariance and Connectivity in Maltreated Children 
 
 Matlab binary file jacobian.mat contains various structural covariate network data used in 
 
