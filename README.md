@@ -9,7 +9,6 @@ Integrative structural brain network analysis in diffusion tensor imaging, Brain
 https://pages.stat.wisc.edu/~mchung/papers/chung.2017.connectivity.pdf
 
 
-
 Matlab binary file jacobian.mat contains various structural covariance network data used in 
 
 [2] Chung, M.K., Hanson, J.L., Ye, J., Davidson, R.J. Pollak, S.D. 2015 Persistent homology in sparse regression and its application to brain morphometry. IEEE Transactions on Medical Imaging, 34:1928-1939 http://pages.stat.wisc.edu/~mchung/papers/chung.2015.TMI.pdf
