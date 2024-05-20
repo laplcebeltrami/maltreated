@@ -1,16 +1,17 @@
 # Structural Covariance and Connectivity in Maltreated Children 
 
+The data and codes are published in 
+
+M.K. Chung, T. Azizi, J. Hanson, A. Alexander, R.J. Davidson, and S. Pollak. Altered topological structure of the brain white matter in maltreated children through topological data analysis. Network Neuroscience, 2024, 8:355-376. 
+
+
 Simply run MATLAB live editor file SCRIPT-NetworkNeuroScience.mlx
 
-The structural connectivity data (connectivity-DTIcounts.mat) is explained in
+The structural connectivity data (connectivity-DTIcounts.mat) is further explained in
 
 [1] Chung, M.K., Hanson, J.L., Adluru, Aleander, A.L., Davidson, R.J., Pollak, S.D. 2017 
 Integrative structural brain network analysis in diffusion tensor imaging, Brain Connectivity 7:331-346
 https://pages.stat.wisc.edu/~mchung/papers/chung.2017.connectivity.pdf
-
-
-
-
 
 Matlab binary file jacobian.mat contains various structural covariance network data used in 
 
