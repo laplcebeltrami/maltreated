@@ -45,3 +45,5 @@ http://brainimaging.waisman.wisc.edu/%7Echung/barcodes
 (C) 2013- Moo K. Chung, Jamie Hanson, Andrew Alexander, Richard Davidson, Seth Pollack, 
 University of Wisconsin-Madison
 
+The project is funded in part by NIH MH133614.
+
