@@ -7,6 +7,7 @@ M.K. Chung, T. Azizi, J. Hanson, A. Alexander, R.J. Davidson, and S. Pollak. [Al
 
 Simply run MATLAB live editor file SCRIPT-NetworkNeuroScience.mlx line by line.
 
+---
 The structural connectivity data (connectivity-DTIcounts.mat) is further explained in
 
 [1] Chung, M.K., Hanson, J.L., Adluru, Aleander, A.L., Davidson, R.J., Pollak, S.D. 2017 
