@@ -4,8 +4,10 @@ The data and codes are published in
 
 ### M.K. Chung, T. Azizi, J. Hanson, A. Alexander, R.J. Davidson, and S. Pollak. [Altered topological structure of the brain white matter in maltreated children through topological data analysis](https://watermark.silverchair.com/netn_a_00355.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAzUwggMxBgkqhkiG9w0BBwagggMiMIIDHgIBADCCAxcGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMFVtrCIkgi-QYFnToAgEQgIIC6Nq6eySCKWxqnkRlwmhzmRf5ncVcpivocwPJqOjBivwAg3B9J72BNIgkVuzGJnywc95ogUVasvn-uCSgJJD68_HWflcn5BDTXbw8678Ka4MgWzULUx9xsJOxOSIwbzLdSlKL4br0zbim3KpbqcRLmtz_8LgiLXTfbQSF2_BQgTRCd7Ff2mMBxxhI5sjEW0L75GtzqX2gVAzQh0aRrtesH-9oIvXg3jXocqW-4j5lNa9kSvG7ZPRwJBXdCb4dhvDZLAL8bRfKnw5gTg2MdxylcVQJ0HWaKb266KByBrGKK2iNka1qKCUotGbC8yt9s335LqDEREoMlfCjlL9-gq0l47rMRv1lwHoppCRooTAjzDQWyfA6ZQpo26JkZaRXbfF_V0t9fr2-Flr6936LxBr_AfUkLNY_pez7u43JeouBu1sGwF0-ugP0jGt_1F00pd94cBqGfSCkVjHynACvlZqn2kii1N1V5GZEc7wuO3C7cfcvj6yrlJVgAjAX-WOowdF6cDClzvZkmhaOu5NJLKbXMR2z_uUp5m1SrET7IMn_u02W2XPM7GQ7r_vZPXg9pHSgPCD1DRoJ7xf5mtNq4ZD-JiW0ynlODX8TnDA_xtYclN4C5bR1sTOJ2SOhOwL9Wf3bhAHhUJrNkXvIjFUj0Bi8pExPuiZzkVsUhSKoWuyVBFkUlP7XArHbOBiGfj8BMH1wz2zaS3uG7xAwHth945KqevZKyU4MGi1j8MAQtAxUVJ8zv71tHfwchdYU2KeX32RjQfUb7ED-nOhIteLaHnibWRuoUZpNn1jqfMnqHOkVgy7D0PC0k8Bpy_2PNulqvj75zAACsSBKwyOPBm70i3hsdjHrHyibEkUlztoRIbNrB1YqtxGSEDARPY7KKsBG_uXc__vGbSmODQSaw9e6m933tmg0oV2KeONYUISp5H5oSGaZjnOoZBUKTX0EfTkA5Lfs4FY7pXTNruykcxEK7hQPDAlqdGvwM8gi-Q). Network Neuroscience, 2024, 8:355-376. 
 
+The dataset contains brain tissue measurements—specifically, the amounts of gray matter and white matter—across 18,881 regions on the brain surface, which can be further subsampled to 548 cortical regions for analysis. Data were collected from 31 typically developing children and 23 children with a history of maltreatment who were previously institutionalized in Wisconsin. Additional covariates, such as sex and age, are also available. The primary aim is to investigate the dependency structure of tissue amounts across the 548 regions, typically summarized by a Pearson correlation matrix (548 × 548) computed separately for each group. Since each group yields only a single correlation matrix, the key statistical challenge lies in designing an appropriate resampling strategy—such as jackknife or permutation—to enable two-sample testing at each edge (i.e., pair of regions) independently, followed by multiple comparison correction using false discovery rate procedures or permutation-based inference to identify region pairs with significant group differences.
 
-Simply run MATLAB live editor file SCRIPT-NetworkNeuroScience.mlx line by line.
+
+To access data, simply run MATLAB live editor file SCRIPT-NetworkNeuroScience.mlx line by line.
 
 The structural connectivity data (connectivity-DTIcounts.mat) is further explained in
 
@@ -32,8 +34,7 @@ nodes    : 548 Node positions uniformly subsampled from 18881 mesh vertices.
 
 age        : Ages of subjects in year 
 
-group    : Categorical variable indicating if a subject is normal (0) or post institutionalized (PI) children 1. 
-               There are total 31 normal controls and 23 PI.
+group    : Categorical variable indicating if a subject is normal (0) or maltreated - post institutionalized (PI) children 1. There are total 31 normal controls and 23 maltreated (PI).
                
 gender   : Categorical variable indicating if a subject is female (0) or male 1 
 
